@@ -1,0 +1,29 @@
+.formularioWrapper {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 300px;
+
+}
+.formularioWrapper form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;    
+  
+  }
+  .formularioWrapper input{
+    width: 100% ;
+  }
+
+.formularioFiltro{
+    display: flex;
+    gap: 1rem;
+}
+
+.formularioSubmit{
+    background-color: #58ceff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.3rem;
+
+}

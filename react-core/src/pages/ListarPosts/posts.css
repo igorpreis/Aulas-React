@@ -1,0 +1,11 @@
+#box-post{
+    width: 100%;
+    display: flex;
+    background-color: red
+}
+.post{
+
+    background-color: #ccc;
+    max-width: 500px;
+    
+}
