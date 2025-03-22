@@ -1,0 +1,48 @@
+/* Section Resumo*/
+#resume {
+    background-color: var(--color-background-contrast);
+    padding: 80px 0 150px 0;
+}
+
+.box-resume {
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.resume-widget {
+    position: relative;
+    padding: 35px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    border-radius: 20px;
+    background: var(--color-background-contrast-plus);
+    font-family: var(--font-default);
+    transition: all 0.4s linear;
+}
+
+.resume-widget:hover {
+    background-color: var(--color-background);
+}
+
+.time {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.resume-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    font-weight: var(--font-bold);
+}
+
+#resume i {
+    padding-right: 15px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-primary);
+}

@@ -1,0 +1,138 @@
+/* colores em Variáveis */
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) var(--color-bg-scroll);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  --color-primary: #00b342;
+  --color-secondary: #fff;
+  --color-background: #171c22;
+  --color-background-contrast: #20272f;
+  --color-background-contrast-plus: #28323c;
+  --color-text: #fff;
+  --color-text-transp: rgba(255, 255, 255, 0.75);
+  --color-primary-transp: rgba(0, 179, 66, 0.75);
+  --color-bg-scroll: #0c0f12;
+
+  --font-default: "Sora", sans-serif;
+  --font-normal: normal;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-sbold: 600;
+  --font-bold: 700;
+  --font-black: 800;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+/* Estilos Gerais */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1,
+h2 {
+  font-size: 44px;
+  line-height: 1.1;
+  font-family: var(--font-default);
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: var(--font-default);
+  margin-bottom: 50px;
+  font-weight: var(--font-medium);
+}
+
+p,
+a {
+  color: var(--color-text);
+  font-family: var(--font-default);
+  line-height: 150%;
+}
+
+/* Classes Gerais */
+.half-section {
+  width: 50%;
+}
+
+.full-section {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1320px;
+}
+
+.header-section {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.btn-primary {
+  cursor: pointer;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  letter-spacing: 1.5px;
+  border-radius: 50px;
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-primary);
+  font-family: var(--font-default);
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+.btn-header {
+  padding: 10px 20px;
+}
+
+.btn-header i {
+  font-size: 22px;
+  color: var(--color-primary);
+  transition: 0.3s;
+}
+
+.btn-header:hover i {
+  color: var(--color-background);
+}
+
+.btn-big {
+  font-size: 15px;
+  padding: 16px 35px;
+}
+
+.btn-social {
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  color: var(--color-text);
+  background-color: var(--color-background-contrast-plus);
+  border: 1px solid var(--color-background-contrast-plus);
+}
+
+.btn-social i {
+  font-size: 20px;
+}
+
+main {
+  margin: 75px auto 0 auto;
+}

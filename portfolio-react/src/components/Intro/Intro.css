@@ -1,0 +1,81 @@
+/* Section Inicio*/
+#intro {
+    display: flex;
+    max-width: 1200px;
+    margin: 110px auto 70px auto;
+    height: 550px;
+    padding: 0 20px;
+}
+
+#intro h1 {
+    color: var(--color-text);
+    font-weight: var(--font-light);
+    font-style: italic;
+}
+
+#intro h2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: var(--font-bold);
+    font-style: italic;
+    background: var(--color-secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#intro h2 span {
+    border-right: .05em solid;
+    padding-right: 8px;
+    animation: caret 1s steps(1) infinite;
+    margin-right: 5px;
+}
+
+@keyframes caret {
+    60% {
+        color: transparent;
+    }
+}
+
+.intro-section-left {
+    padding-top: 160px;
+}
+
+.intro-description {
+    margin: 8px 0 20px 0;
+    font-size: 18px;
+    max-width: 500px;
+    font-weight: var(--font-light);
+    line-height: 1.15;
+    color: var(--color-primary);
+
+}
+
+.box-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.box-buttons a:nth-child(2) {
+    margin-left: 7px;
+}
+
+.intro-section-right {
+    text-align: right;
+}
+
+.intro-section-right img {
+    width: 90%;
+    margin: 5px auto 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .box-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Se necessário, você pode adicionar mais propriedades aqui */
+    }
+  }
