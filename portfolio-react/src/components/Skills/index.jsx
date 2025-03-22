@@ -25,6 +25,14 @@ export default function Skills() {
           <img src="../icons/javascript.svg" alt="JavaScript Icon" />
         </div>
         <div className="skill-card">
+          <p>React</p>
+          <img src="../icons/react.svg" alt="React Icon" />
+        </div>
+        <div className="skill-card">
+          <p>Node JS</p>
+          <img src="../icons/node-js.svg" alt="Node Js Icon" />
+        </div>
+        <div className="skill-card">
           <p>Wordpress</p>
           <img src="../icons/wordpress.svg" alt="Wordpress Icon" />
         </div>
