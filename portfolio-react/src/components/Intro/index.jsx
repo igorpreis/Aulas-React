@@ -39,7 +39,7 @@ export default function Intro() {
         </div>
       </div>
       <div className="half-section intro-section-right">
-        <img src="/src/assets/img/foto.jpg" alt="Foto Perfil Igor Reis" />
+        <img src="../public/img/foto.jpg" alt="Foto Perfil Igor Reis" />
       </div>
     </section>
   )
