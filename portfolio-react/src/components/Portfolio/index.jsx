@@ -96,7 +96,7 @@ for (var i = 0; i < btns.length; i++) {
               <div className="box-info-work">
                 <p className="info-work">Website SGO</p>
               </div>
-              <img src="../public/img/website-sgo.jpg" className="img-work" alt="Website SGO" />
+              <img src="../img/website-sgo.jpg" className="img-work" alt="Website SGO" />
             </a>
           </div>
 
@@ -106,7 +106,7 @@ for (var i = 0; i < btns.length; i++) {
               <div className="box-info-work">
                 <p className="info-work">Simulador Aronick</p>
               </div>
-              <img src="../public/img/simulador-aronick.jpg" className="img-work" alt="Simulador Aronick" />
+              <img src="../img/simulador-aronick.jpg" className="img-work" alt="Simulador Aronick" />
             </a>
           </div>
 
@@ -116,7 +116,7 @@ for (var i = 0; i < btns.length; i++) {
               <div className="box-info-work">
                 <p className="info-work">Branding Misare</p>
               </div>
-              <img src="../public/img/misare.jpg" className="img-work" alt="Branding Misare" />
+              <img src="../img/misare.jpg" className="img-work" alt="Branding Misare" />
             </a>
           </div>
 
@@ -126,7 +126,7 @@ for (var i = 0; i < btns.length; i++) {
               <div className="box-info-work">
                 <p className="info-work">Videos Icone Sports</p>
               </div>
-              <img src="../public/img/videos-icone.jpg" className="img-work" alt="Videos Icone Sports" />
+              <img src="../img/videos-icone.jpg" className="img-work" alt="Videos Icone Sports" />
             </a>
           </div>
         </div>
