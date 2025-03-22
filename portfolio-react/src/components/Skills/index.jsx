@@ -14,59 +14,59 @@ export default function Skills() {
       <div className="box-skills-card">
         <div className="skill-card">
           <p>HTML5</p>
-          <img src="../public/icons/html.svg" alt="HTML Icon" />
+          <img src="../icons/html.svg" alt="HTML Icon" />
         </div>
         <div className="skill-card">
           <p>CSS3</p>
-          <img src="../public/icons/css.svg" alt="CSS3 Icon" />
+          <img src="../icons/css.svg" alt="CSS3 Icon" />
         </div>
         <div className="skill-card">
           <p>JavaScript</p>
-          <img src="../public/icons/javascript.svg" alt="JavaScript Icon" />
+          <img src="../icons/javascript.svg" alt="JavaScript Icon" />
         </div>
         <div className="skill-card">
           <p>Wordpress</p>
-          <img src="../public/icons/wordpress.svg" alt="Wordpress Icon" />
+          <img src="../icons/wordpress.svg" alt="Wordpress Icon" />
         </div>
         <div className="skill-card">
           <p>Elementor</p>
-          <img src="../public/icons/elementor.svg" alt="Elementor Icon" />
+          <img src="../icons/elementor.svg" alt="Elementor Icon" />
         </div>
         <div className="skill-card">
           <p>Photoshop</p>
-          <img src="../public/icons/photoshop.svg" alt="Photoshop Icon" />
+          <img src="../icons/photoshop.svg" alt="Photoshop Icon" />
         </div>
         <div className="skill-card">
           <p>Illustrator</p>
-          <img src="../public/icons/illustrator.svg" alt="Illustrator Icon" />
+          <img src="../icons/illustrator.svg" alt="Illustrator Icon" />
         </div>
         <div className="skill-card">
           <p>After Effects</p>
-          <img src="../public/icons/after.svg" alt="After Effects Icon" />
+          <img src="../icons/after.svg" alt="After Effects Icon" />
         </div>
         <div className="skill-card">
           <p>Corel Draw</p>
-          <img src="../public/icons/corel.svg" alt="Corel Draw Icon" />
+          <img src="../icons/corel.svg" alt="Corel Draw Icon" />
         </div>
         <div className="skill-card">
           <p>Google Ads</p>
-          <img src="../public/icons/google-ads.svg" alt="Google Ads Icon" />
+          <img src="../icons/google-ads.svg" alt="Google Ads Icon" />
         </div>
         <div className="skill-card">
           <p>Meta Ads</p>
-          <img src="../public/icons/meta-ads.svg" alt="Meta Ads Icon" />
+          <img src="../icons/meta-ads.svg" alt="Meta Ads Icon" />
         </div>
         <div className="skill-card">
           <p>G. Analytics</p>
-          <img src="../public/icons/google-analytics.svg" alt="Google Analytics Icon" />
+          <img src="../icons/google-analytics.svg" alt="Google Analytics Icon" />
         </div>
         <div className="skill-card">
           <p>Tag Manager</p>
-          <img src="../public/icons/tagmanager.svg" alt="Tag Manager Icon" />
+          <img src="../icons/tagmanager.svg" alt="Tag Manager Icon" />
         </div>
         <div className="skill-card">
           <p>Figma</p>
-          <img src="../public/icons/figma.svg" alt="Figma Icon" />
+          <img src="../icons/figma.svg" alt="Figma Icon" />
         </div>
       </div>
     </div>
