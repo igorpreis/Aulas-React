@@ -33,6 +33,14 @@ export default function Skills() {
           <img src="../icons/node-js.svg" alt="Node Js Icon" />
         </div>
         <div className="skill-card">
+          <p>Mongo DB</p>
+          <img src="../icons/mongodb.svg" alt="Mongo DB" />
+        </div>
+        <div className="skill-card">
+          <p>GitHub</p>
+          <img src="../icons/github.svg" alt="GitHub" />
+        </div>
+        <div className="skill-card">
           <p>Wordpress</p>
           <img src="../icons/wordpress.svg" alt="Wordpress Icon" />
         </div>
